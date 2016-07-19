@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Makan page</title>
+
+    <link rel="stylesheet" type="text/css" href="makanstylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="javascript/makanplaceid.js"></script>
+    <script src="javascript/makanscript.js"></script>
+
+
+  </head>
+  <body>
+    <input id="pac-input" class="controls" type="text"
+            placeholder="Enter a location">
+        <div id="map"></div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVfD1Z4hserqiO83dg0ZOOexyCepCCg6w&libraries=places&callback=initMap"
+    async defer></script>
+  </body>
+</html>
